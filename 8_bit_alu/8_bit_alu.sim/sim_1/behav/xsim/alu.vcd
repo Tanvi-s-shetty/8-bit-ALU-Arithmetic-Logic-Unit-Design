@@ -1,0 +1,77 @@
+$date
+   Wed Oct 28 21:25:21 2026
+$end
+
+$version
+  2025.2
+  $dumpfile ("alu.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_alu $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var reg 3 # Sel [2:0] $end
+$var wire 8 $ Result [7:0] $end
+$var wire 1 % CarryOut $end
+$var wire 1 & Zero $end
+$scope module uut $end
+$var wire 8 ' A [7:0] $end
+$var wire 8 ( B [7:0] $end
+$var wire 3 ) Sel [2:0] $end
+$var reg 8 * Result [7:0] $end
+$var reg 1 + CarryOut $end
+$var wire 1 & Zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b1111 !
+b1010 "
+b0 #
+b11001 $
+0%
+0&
+b1111 '
+b1010 (
+b0 )
+b11001 *
+0+
+$end
+
+#10000
+b10100 !
+b101 "
+b1 #
+b1111 $
+b10100 '
+b101 (
+b1 )
+b1111 *
+
+#20000
+b11001100 !
+b10101010 "
+b10 #
+b10001000 $
+b11001100 '
+b10101010 (
+b10 )
+b10001000 *
+
+#30000
+b11 #
+b11101110 $
+b11 )
+b11101110 *
+
+#40000
+b100 #
+b1100110 $
+b100 )
+b1100110 *

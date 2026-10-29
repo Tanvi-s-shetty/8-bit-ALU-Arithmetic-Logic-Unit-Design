@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Addition: A= 15, B= 10, Result= 25, CarryOut=0, Zero=0
+Subtraction: A= 20, B=  5, Result= 15, CarryOut=0, Zero=0
+AND: Result=10001000
+OR: Result=11101110
+XOR: Result=01100110
+$finish called at time : 50 ns : File "D:/1Vivado/8_bit_alu/8_bit_alu.srcs/sim_1/new/8bit_alu_tb.v" Line 86
